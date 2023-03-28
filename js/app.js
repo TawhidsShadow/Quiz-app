@@ -68,7 +68,7 @@ const setValue = (elem, value) => {
   elem.innerHTML=value;
 }
 
-const renderQuestion = _=> {
+const renderQuestion = _ => {
   const question = quiz.getCurrentQuestion().question;
   // quizQuestionEl.innerHTML = question;
   setValue(quizQuestionEl, question);
